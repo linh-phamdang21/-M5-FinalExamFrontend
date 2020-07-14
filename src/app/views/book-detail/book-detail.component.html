@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-10" *ngIf="book">
+    <div class="row">
+      <div class="card col-12">
+        <div class="card-header">
+          ID: <span>{{book.id}}</span>
+        </div>
+        <div class="card-body col-12">
+          Name: <span>{{book.name}}</span>
+        </div>
+        <div class="card-body col-12">
+          Author: <span>{{book.author}}</span>
+        </div>
+        <div class="card-body col-12">
+          Description: <p>{{book.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
